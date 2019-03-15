@@ -28,8 +28,14 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid-spring-boot-starter</artifactId>
-            <version>1.1.0</version>
+            <version>1.1.10</version>
         </dependency>
+
+        <!--<dependency>-->
+            <!--<groupId>com.itfsw</groupId>-->
+            <!--<artifactId>mybatis-generator-plugin</artifactId>-->
+            <!--<version>1.2.10</version>-->
+        <!--</dependency>-->
 
         <!--分页-->
         <dependency>
@@ -65,6 +71,11 @@
                         <artifactId>mysql-connector-java</artifactId>
                         <version>5.1.46</version>
                     </dependency>
+                    <!--<dependency>-->
+                        <!--<groupId>com.xdd</groupId>-->
+                        <!--<artifactId>approve-data</artifactId>-->
+                        <!--<version>0.0.1-SNAPSHOT</version>-->
+                    <!--</dependency>-->
                 </dependencies>
 
             </plugin>

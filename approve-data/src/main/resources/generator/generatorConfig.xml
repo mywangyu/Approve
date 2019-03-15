@@ -34,8 +34,8 @@
         </commentGenerator>
 
         <!-- 数据库连接URL，用户名，密码 -->
-        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/dbname"
-                        userId="root" password="approve"/>
+        <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost:3306/approve"
+                        userId="root" password="123456"/>
 
         <!-- mybatis里专门用来处理NUMERIC和DECIMAL类型的策略 -->
         <javaTypeResolver>
