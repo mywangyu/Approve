@@ -58,6 +58,15 @@
                     <!--是否将生成过程输出至控制台-->
                     <verbose>true</verbose>
                 </configuration>
+
+                <dependencies>
+                    <dependency>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>5.1.46</version>
+                    </dependency>
+                </dependencies>
+
             </plugin>
 
         </plugins>

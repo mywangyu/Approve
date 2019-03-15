@@ -16,9 +16,17 @@ spring:
 
 mybatis:
   mapper-locations: classpath:mapping/*.xml,classpath:mapping-manual/*xml
-  type-aliases-package: com.xdd.entity
+  type-aliases-package: com.xdd.data.entity
   configuration:
     map-underscore-to-camel-case: true
+
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: count=countSql
+
+
 
 
 
