@@ -8,7 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Created by Deso on 2019/3/15.
  */
 @SpringBootApplication
-@MapperScan(basePackages = "")
+@MapperScan(basePackages = "com.xdd.data.mapper")
 public class ApproveApplication {
 
     public static void main(String[] args) {
