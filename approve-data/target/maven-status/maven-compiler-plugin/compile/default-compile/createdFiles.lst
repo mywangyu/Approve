@@ -1,0 +1,8 @@
+com\xdd\data\entity\User.class
+com\xdd\data\plugins\mybatisGen\DeleteExsitingMappingXML.class
+com\xdd\data\mapper\UserMapper.class
+com\xdd\data\entity\User$Column.class
+com\xdd\data\entity\UserExample$Criteria.class
+com\xdd\data\entity\UserExample$GeneratedCriteria.class
+com\xdd\data\entity\UserExample$Criterion.class
+com\xdd\data\entity\UserExample.class

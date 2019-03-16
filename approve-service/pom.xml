@@ -11,5 +11,15 @@
 
     <artifactId>approve-service</artifactId>
 
+    <dependencies>
+
+        <dependency>
+            <groupId>com.xdd</groupId>
+            <artifactId>approve-data</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
+
 
 </project>

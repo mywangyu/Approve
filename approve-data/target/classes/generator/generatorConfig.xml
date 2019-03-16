@@ -11,6 +11,9 @@
     <!-- defaultModelType="flat" 设置复合主键时不单独为主键创建实体 -->
     <context id="DB2Tables" targetRuntime="MyBatis3" defaultModelType="flat">
 
+        <!-- 自己写的用于删除已存在的mapping.xml文件，防止重复 -->
+        <plugin type="com.xdd.data.plugins.mybatisGen.DeleteExsitingMappingXML"></plugin>
+
         <!-- 生成的POJO实现java.io.Serializable接口 -->
         <!--<plugin type="org.mybatis.generator.plugins.SerializablePlugin" />-->
 
@@ -30,7 +33,7 @@
             <!-- suppressDate:注释上不添加日期。false,打开；true,关闭。-->
             <property name="suppressDate" value="true"/>
             <!-- suppressAllComments:代码上注释。false打开注释，true关闭注释 -->
-            <property name="suppressAllComments" value="false"/>
+            <property name="suppressAllComments" value="true"/>
         </commentGenerator>
 
         <!-- 数据库连接URL，用户名，密码 -->
