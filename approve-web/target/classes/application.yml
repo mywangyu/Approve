@@ -1,3 +1,5 @@
 spring:
   profiles:
     active: data,service
+logging:
+  config: classpath:log/logback-spring.xml
